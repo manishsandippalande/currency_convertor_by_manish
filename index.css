@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque&family=Fuggles&family=Lato:wght@700&family=Roboto&family=Roboto+Slab:wght@600&family=Rubik:wght@500&family=Ubuntu:wght@500&display=swap');
+.header {
+  background-color: rgba(0, 0, 0, 0.063);
+  font-family: 'Rubik', sans-serif;
+  color: rgb(255, 255, 0);
+  text-shadow: 0px 0px 19px rgb(0, 0, 0);
+}
+.manish{
+  background-color: rgba(0, 0, 0, 0.565);
+  height: 100vh;
+}
+.manish-l{
+  background-color: transparent;
+  /* flex-direction: column; */
+}
+select{
+  width: 250px;
+  padding: 4px;
+  border-radius: 10px;
+  outline: 1px solid aqua;
+  /* margin: 2px; */
+}
+.inp{
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+}
+.inpselect{
+  display: flex;
+  gap: 10px;
+}
+input{
+  outline: 1px solid aqua;
+}
+.resultbox{
+  background-color: rgb(253, 252, 215);
+  border-radius: 10px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+@media screen and (max-width:800px) {
+  select{
+    width: 150px;
+    padding: 4px;
+    border-radius: 10px;
+    outline: 1px solid aqua;
+    /* margin: 2px; */
+  }
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="manish">
+        <h1 class="header text-center py-5">
+            Manish's Currency Convertor
+        </h1>
+        <div class="manish-l d-flex my-auto align-content-center justify-content-center py-5">
+            <div class="inp py-5 px-3 bg-black gap-3">
+                <input type="number" id="value" placeholder="Enter Amount..." class="fs-6 py-2 px-2 text-center fw-semibold" style="border-radius: 10px; border: 0px;">
+                <div class="inpselect">
+                    <select class="fs-6 py-2 px-2 fw-semibold" name="from" id="from">
+                        <option value="">NONE</option>
+                    </select>
+                    <select class="fs-6 py-2 px-2 fw-semibold" name="from" id="to">
+                        <option value="">NONE</option>
+                    </select>
+                </div>
+                
+                <button class="btn btn-success py-1 px-3 fs-5 fw-semibold" onclick="convert()" >CONVERT</button>
+                <div class="out">
+                    <label class="resultbox px-3 py-3 fs-6 fw-bold" id="result"></label>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    <script src="fetch.js"></script>
+</body>
+</html>
